@@ -29,7 +29,7 @@ dev = [
 requires-dist = [
     { name = "click", specifier = ">=8.1.7" },
     { name = "duckduckgo-search", specifier = ">=6.3.6" },
-    { name = "openai", specifier = ">=1.54.5" },
+    { name = "openai", specifier = ">=1.55.0" },
     { name = "pangea-sdk", specifier = ">=5.1.0" },
     { name = "pydantic", specifier = ">=2.10.1" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
@@ -493,7 +493,7 @@ wheels = [
 
 [[package]]
 name = "openai"
-version = "1.54.5"
+version = "1.55.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -505,9 +505,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/86/29/d480df62c061ce065d33976b263806bad334597c178948e69907db256a77/openai-1.54.5.tar.gz", hash = "sha256:2aab4f9755a3e1e04d8a45ac1f4ce7b6948bab76646020c6386256d7e5cbb7e0", size = 313838 }
+sdist = { url = "https://files.pythonhosted.org/packages/c2/5c/8c126c0c4ceddf63964acd224c3cf5a37c2e845bb8ff12db6acc96d335c5/openai-1.55.1.tar.gz", hash = "sha256:471324321e7739214f16a544e801947a046d3c5d516fae8719a317234e4968d3", size = 314276 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/30/90/7f6621a79de8b32f120e9790441c24dd9afafb2f1ca41fd3b9f4faaf8f9f/openai-1.54.5-py3-none-any.whl", hash = "sha256:f55a4450f38501814b53e76311ed7845a6f7f35bab46d0fb2a3728035d7a72d8", size = 389475 },
+    { url = "https://files.pythonhosted.org/packages/24/cf/1fbe3eaf1d90796722c3dcd268e103a6a0918f25ec51138c7d27aec7f001/openai-1.55.1-py3-none-any.whl", hash = "sha256:d10d96a4f9dc5f05d38dea389119ec8dcd24bc9698293c8357253c601b4a77a5", size = 389536 },
 ]
 
 [[package]]
