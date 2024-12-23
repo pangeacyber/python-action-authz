@@ -25,7 +25,7 @@ requires-dist = [
     { name = "click", specifier = ">=8.1.7" },
     { name = "duckduckgo-search", specifier = "==6.4.2" },
     { name = "openai", specifier = ">=1.57.4" },
-    { name = "pangea-sdk", specifier = ">=5.1.0" },
+    { name = "pangea-sdk", specifier = ">=5.2.1" },
     { name = "pydantic", specifier = ">=2.10.4" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
 ]
