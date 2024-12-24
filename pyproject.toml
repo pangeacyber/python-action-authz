@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 
 dependencies = [
-    "click>=8.1.7",
+    "click>=8.1.8",
     "duckduckgo-search==6.4.2",
     "openai>=1.57.4",
     "pangea-sdk>=5.2.1",
