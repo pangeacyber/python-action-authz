@@ -98,8 +98,12 @@ def main(
     tool_calls = completions.choices[0].message.tool_calls
     assert tool_calls
     for function_call in tool_calls:
-        function_name = function_call.function.name
-        function_args = json.loads(function_call.function.arguments)
+        if function_call.type == "function":
+            function_name = function_call.function.name
+            function_args = json.loads(function_call.function.arguments)
+        else:
+            function_name = function_call.custom.name
+            function_args = json.loads(function_call.custom.input)
 
         if function_name == "search":
             # Check if user is authorized to run this tool.

@@ -8,7 +8,7 @@ requires-python = ">=3.12"
 dependencies = [
     "click>=8.2.1",
     "duckduckgo-search==6.4.2",
-    "openai>=1.98.0",
+    "openai==1.99.9",
     "pangea-sdk>=6.4.0",
     "pydantic>=2.11.7",
     "python-dotenv>=1.1.1",
@@ -17,7 +17,7 @@ dependencies = [
 [tool.uv]
 dev-dependencies = [
     "mypy>=1.17.1",
-    "ruff>=0.12.9",
+    "ruff>=0.12.9"
 ]
 
 [tool.ruff]
