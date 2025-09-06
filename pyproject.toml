@@ -9,7 +9,7 @@ dependencies = [
     "click>=8.2.1",
     "duckduckgo-search==6.4.2",
     "openai==1.104.2",
-    "pangea-sdk>=6.5.0",
+    "pangea-sdk>=6.6.0",
     "pydantic>=2.11.7",
     "python-dotenv>=1.1.1",
 ]
