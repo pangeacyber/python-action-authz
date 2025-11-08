@@ -10,7 +10,7 @@ dependencies = [
     "duckduckgo-search==6.4.2",
     "openai==2.7.1",
     "pangea-sdk>=6.11.0",
-    "pydantic>=2.12.3",
+    "pydantic>=2.12.4",
     "python-dotenv>=1.2.1",
 ]
 
